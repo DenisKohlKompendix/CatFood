@@ -1,6 +1,6 @@
 Denis Kohl 23.05.2019 
 
-###Catfood
+#Catfood
 Catfood is a tool to prepare date for dataanalyse processes. 
 
 It is written in Ruby. 
@@ -13,11 +13,11 @@ the is a task the will run in the Catfood main task.
 The idea is to run same task sequancel over your data. 
 All **Cans** must have the variable content. The variable 
 content, contains the data from the files you have load. 
-
-Can_dump.rb
+#simple Can
+        Can_dump.rb
 	puts content
-	
-Can_stripHTML.rb
+#strip HTML Can	
+        Can_stripHTML.rb
 	temp = ""
 	content.gsub!(/\r\n?/, "\n")
 	content.each_line do |line|
