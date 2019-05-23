@@ -1,0 +1,1 @@
+content.gsub!(/<\s*script.*<\/script>/," ")

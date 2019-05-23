@@ -1,0 +1,5 @@
+{
+    "input":"./input",
+    "output":"./output",
+    "pipline":[{"can":"offset", "options":["<div class=\"row\">"]},{"can":"CutTail", "options":["<h2 class=\"gp-title\">Diese Funktion steht nur GULP Direkt Kunden zur Verfügung.</h2>"]},{"can":"stripScript"},{"can":"stripHTML"},{"can":"stripMultiBlank"},{"can":"dump"}]
+}
