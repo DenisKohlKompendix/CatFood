@@ -1,6 +1,4 @@
-Denis Kohl 23.05.2019 
-
-#Catfood
+#CatFood
 Catfood is a tool to prepare date for dataanalyse processes. 
 
 It is written in Ruby. 
@@ -13,6 +11,7 @@ the is a task the will run in the Catfood main task.
 The idea is to run same task sequancel over your data. 
 All **Cans** must have the variable content. The variable 
 content, contains the data from the files you have load. 
+
 ##Simplel Can
 	Can_dump.rb
 	puts content
@@ -43,3 +42,5 @@ mau.json is the configfile to ran a task bundel.
 ##Using
 Make a Copy of the CatFood folder. Desgin your Taskchain. 
 And run it **ruby feedTheCat.rb ** 
+
+*Denis Kohl 23.05.2019*
