@@ -6,18 +6,18 @@ Catfood is a tool to prepare date for dataanalyse processes.
 It is written in Ruby. 
 Catfood is a dynamic and easy to extend system to perpare files form dataanalys Processing.
 
-You can sequancel run same tasks over your data. The tasks are named in Catfood contex Can.    
+You can sequancel run same tasks over your data. The tasks are independend scripts. You will find same of them in the folder **catfood**.    
 
 ## Can  
 
 the is a task the will run in the Catfood main task.   
 The idea is to run same task sequancel over your data.   
-All **Cans** must have the variable content. The variable   
-content, contains the data from the files you have load.    
+All **Cans** provide the file Data in der variable named *content*. 
 
 ## Simplel Can  
 	Can_dump.rb
-	puts content
+	puts content 
+	## content contains the data from the file.
 	
 ## Strip HTML Can
 	Can_stripHTML.rb
