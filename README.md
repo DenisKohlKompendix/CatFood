@@ -1,5 +1,5 @@
 
-#CatFood
+# CatFood
 
 Catfood is a tool to prepare date for dataanalyse processes. 
 
@@ -8,14 +8,14 @@ Catfood is a dynamic and easy to extend system to perpare files form dataanalys 
 
 You can sequancel run same tasks over your data. The tasks are named in Catfood contex Can.    
 
-##Can  
+## Can  
 
 the is a task the will run in the Catfood main task.   
 The idea is to run same task sequancel over your data.   
 All **Cans** must have the variable content. The variable   
 content, contains the data from the files you have load.    
 
-##Simplel Can  
+## Simplel Can  
 	Can_dump.rb
 	puts content
 	
@@ -30,7 +30,7 @@ content, contains the data from the files you have load.
 	content = temp
 	
 
-##mau.json  
+## mau.json  
 
 mau.json is the configfile to ran a task bundel.   
 
@@ -45,8 +45,8 @@ mau.json is the configfile to ran a task bundel.
 **pipline** is the task cain. Every taks is a ruby script in **catfood** folder. All script have to named like **Can_[youtask]**      
 	
  
-##Using  
-Make a Copy of the CatFood folder. Desgin your Taskchain. 
+## Using  
+Make a Copy of the CatFood folder. Desgin your Taskchain.   
 And run it 
 
 	ruby feedTheCat.rb  
