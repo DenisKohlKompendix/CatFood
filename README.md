@@ -16,7 +16,6 @@ All **Cans** must have the variable content. The variable
 content, contains the data from the files you have load.    
 
 ##Simplel Can  
-
 	Can_dump.rb
 	puts content
 	
