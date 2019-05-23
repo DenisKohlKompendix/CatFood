@@ -47,6 +47,8 @@ mau.json is the configfile to ran a task bundel.
  
 ##Using  
 Make a Copy of the CatFood folder. Desgin your Taskchain. 
-And run it **ruby feedTheCat.rb ** 
+And run it 
+
+	ruby feedTheCat.rb  
 
 *Denis Kohl 23.05.2019*
