@@ -7,6 +7,7 @@ require 'json'
 #    puts "usage: Mau.rb mau.json"
 #    exit
 #end
+#Endlich wird das mal benutzt
 mau = File.read("./mau.json")
 mau_obj = JSON.parse(mau)
 
